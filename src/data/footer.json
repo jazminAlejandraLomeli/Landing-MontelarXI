@@ -1,0 +1,31 @@
+{
+  "tagline": "Tequila 100% de agave azul, elaborado con paciencia en Jalisco, México.",
+  "columns": [
+    {
+      "title": "Explora",
+      "links": [
+        { "label": "Productos", "href": "/#productos" },
+        { "label": "Nuestra Historia", "href": "/nuestra-historia" },
+        { "label": "Recetas", "href": "/recetas" },
+        { "label": "Dónde encontrar", "href": "/donde-encontrar" }
+      ]
+    },
+    {
+      "title": "Ayuda",
+      "links": [
+        { "label": "Contacto", "href": "#" },
+        { "label": "Preguntas frecuentes", "href": "#" },
+        { "label": "Aviso de privacidad", "href": "#" },
+        { "label": "Términos y condiciones", "href": "#" }
+      ]
+    }
+  ],
+  "social": [
+    { "label": "Instagram", "href": "#" },
+    { "label": "Facebook", "href": "#" },
+    { "label": "TikTok", "href": "#" }
+  ],
+  "responsible": "Evita el exceso. Todo con medida. Prohibida la venta a menores de edad.",
+  "copyright": "Todos los derechos reservados.",
+  "copyrightSymbol": "©"
+}

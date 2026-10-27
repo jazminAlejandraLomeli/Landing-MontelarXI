@@ -1,0 +1,87 @@
+{
+  "id": "historia",
+  "eyebrow": "NUESTRA HISTORIA",
+  "title": "Del campo a la botella, sin atajos",
+  "intro": "Cada gota nace de una filosofía artesanal: respetar los tiempos del agave y las manos que lo trabajan.",
+  "hint": "Toca una tarjeta para leer más",
+  "ctaText": "CONOCE NUESTRA HISTORIA",
+  "ctaHref": "/nuestra-historia",
+  "landingCount": 3,
+  "moreLabel": "etapas más en la historia completa",
+  "page": {
+    "metaTitle": "Nuestra historia",
+    "eyebrow": "NUESTRA HISTORIA",
+    "title": "Siete años de paciencia en cada botella",
+    "intro": "En Los Altos de Jalisco el tiempo se mide en cosechas. Así hacemos nuestro tequila: paso a paso, sin acelerar lo que la tierra y el agave necesitan.",
+    "heroImage": "https://images.unsplash.com/photo-1609951651556-5334e2706168?auto=format&fit=crop&w=1600&q=80",
+    "stageLabel": "Etapa",
+    "ofLabel": "de",
+    "quote": "El agave no se apura. Nosotros tampoco.",
+    "quoteAuthor": "Maestro tequilero",
+    "closingTitle": "Ahora que conoces el camino, descubre el resultado",
+    "closingCta": "VER LA COLECCIÓN",
+    "closingHref": "/#productos"
+  },
+  "steps": [
+    {
+      "title": "Cosecha",
+      "summary": "Jimadores seleccionan a mano agaves azules maduros de siete años, cultivados en tierra roja de Los Altos de Jalisco.",
+      "body": [
+        "Un agave azul tarda en promedio siete años en madurar. Durante ese tiempo concentra en su corazón los azúcares que más tarde darán carácter a nuestro tequila.",
+        "Nuestros jimadores recorren el campo y eligen cada planta en su punto exacto. Con la coa, una herramienta que se ha usado por generaciones, retiran las pencas hasta dejar la piña limpia."
+      ],
+      "fact": "Una piña madura puede pesar entre 40 y 80 kilos.",
+      "image": "https://images.unsplash.com/photo-1609951651556-5334e2706168?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Cocción",
+      "summary": "Las piñas se cuecen lentamente en hornos de mampostería durante 72 horas para liberar sus azúcares naturales.",
+      "body": [
+        "Las piñas se parten y se acomodan en hornos de mampostería, donde el vapor las cuece de forma lenta y uniforme.",
+        "Esta cocción pausada transforma los almidones del agave en azúcares fermentables y desarrolla las notas dulces y de agave cocido que distinguen a nuestra casa."
+      ],
+      "fact": "72 horas de cocción lenta, sin difusores ni atajos.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Molienda",
+      "summary": "La tahona de piedra volcánica extrae el jugo y la fibra del agave cocido, como se hacía hace generaciones.",
+      "body": [
+        "El agave cocido pasa bajo la tahona, una gran rueda de piedra volcánica que lo tritura con calma.",
+        "Así obtenemos el mosto: el jugo dulce del agave junto con parte de su fibra, que aporta cuerpo y complejidad durante la fermentación."
+      ],
+      "fact": "La tahona pesa alrededor de dos toneladas.",
+      "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Fermentación",
+      "summary": "Levaduras propias transforman los azúcares en tinas de madera, al ritmo natural del clima de Jalisco.",
+      "body": [
+        "El mosto reposa en tinas de madera donde nuestras levaduras convierten los azúcares en alcohol.",
+        "No forzamos la temperatura: dejamos que el clima marque el ritmo. Es aquí donde nacen muchos de los aromas frutales y florales del tequila."
+      ],
+      "fact": "Entre 4 y 6 días, según la temporada.",
+      "image": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Destilación",
+      "summary": "Doble destilación en alambiques de cobre que preserva el carácter herbal y cítrico del agave cocido.",
+      "body": [
+        "El mosto fermentado se destila dos veces en alambiques de cobre. La primera destilación separa el alcohol; la segunda lo afina.",
+        "Nuestro maestro tequilero separa con cuidado cabezas, corazón y colas: solo el corazón, la parte más limpia y aromática, se convierte en MontelarXI."
+      ],
+      "fact": "Solo el corazón de la destilación llega a la botella.",
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Añejamiento",
+      "summary": "Barricas de roble americano dan al reposado y al añejo sus notas de vainilla, caramelo y madera tostada.",
+      "body": [
+        "El blanco se embotella tal cual, para conservar la pureza del agave. El reposado y el añejo descansan en barricas de roble americano.",
+        "Con el tiempo la madera suaviza el destilado y le aporta notas de vainilla, caramelo y frutos secos, hasta alcanzar el equilibrio que buscamos."
+      ],
+      "fact": "Reposado: mínimo 2 meses. Añejo: mínimo 1 año en barrica.",
+      "image": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?auto=format&fit=crop&w=900&q=80"
+    }
+  ]
+}

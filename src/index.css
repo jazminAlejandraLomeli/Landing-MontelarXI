@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Los valores reales de color y tipografía se inyectan desde src/data/site.json
+   (ver App.tsx). Aquí solo hay valores por defecto de respaldo. */
+:root {
+  --color-primary: #0d0d0d;
+  --color-secondary: #d4af37;
+  --color-background: #faf8f5;
+  --color-accent: #1a3c34;
+  --color-text: #222222;
+  --color-card: #ffffff;
+  --font-heading: serif;
+  --font-body: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}

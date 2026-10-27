@@ -1,0 +1,17 @@
+{
+  "phone": "",
+  "buttonLabel": "Escríbenos por WhatsApp",
+  "title": "¿En qué te ayudamos?",
+  "intro": "Elige un tema y te abrimos WhatsApp con el mensaje listo para enviar.",
+  "status": "Respondemos lo antes posible",
+  "options": [
+    { "label": "Tengo una duda", "message": "Hola, tengo una duda sobre MontelarXI." },
+    { "label": "¿Dónde lo consigo?", "message": "Hola, quiero información de dónde puedo conseguir MontelarXI en mi ciudad." },
+    { "label": "Precios y mayoreo", "message": "Hola, me interesa conocer precios y opciones de mayoreo de MontelarXI." },
+    { "label": "Eventos y regalos", "message": "Hola, quiero información para eventos o regalos corporativos con MontelarXI." }
+  ],
+  "customLabel": "O escribe tu propio mensaje",
+  "customPlaceholder": "Escribe aquí tu mensaje…",
+  "sendLabel": "Enviar",
+  "closeLabel": "Cerrar"
+}

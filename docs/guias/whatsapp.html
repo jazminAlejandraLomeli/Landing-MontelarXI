@@ -1,0 +1,85 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Cómo configurar el botón de WhatsApp</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;font-family:'Inter',system-ui,sans-serif;color:#222;background:#FAF8F5;-webkit-font-smoothing:antialiased}
+code{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:.92em;background:#F1ECE3;color:#1A3C34;padding:2px 7px;border-radius:5px}
+.serif{font-family:'Playfair Display',serif}
+.hero{position:relative;overflow:hidden;background:#0D0D0D;color:#FAF8F5;padding:64px 72px 70px}
+.hero .halo{position:absolute;right:-180px;top:-200px;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgb(212 175 55/.22),transparent 65%)}
+.hero .top{position:relative;display:flex;align-items:center;justify-content:space-between;margin-bottom:52px}
+.brand{display:flex;align-items:center;gap:16px}
+.brand span.logo{display:grid;place-items:center;width:64px;height:64px;background:#FAF8F5}
+.brand span.logo img{width:44px}
+.brand b{font-family:'Playfair Display',serif;font-weight:400;font-size:28px;letter-spacing:.02em}
+.tag{display:flex;align-items:center;gap:10px;border:1px solid rgb(212 175 55/.6);color:#D4AF37;padding:10px 20px;font-size:14px;letter-spacing:.28em;text-transform:uppercase}
+.eyebrow{position:relative;display:flex;align-items:center;gap:14px;font-size:15px;letter-spacing:.35em;color:#D4AF37;text-transform:uppercase}
+.eyebrow:before{content:'';width:44px;height:1px;background:#D4AF37}
+h1{position:relative;font-family:'Playfair Display',serif;font-weight:400;font-size:70px;line-height:1.04;margin-top:22px;max-width:900px}
+.lead{position:relative;margin-top:24px;font-size:23px;line-height:1.55;color:rgb(250 248 245/.72);max-width:860px}
+.meta{position:relative;display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.meta div{border:1px solid rgb(250 248 245/.18);padding:14px 20px;display:flex;align-items:center;gap:12px;font-size:17px;color:rgb(250 248 245/.85)}
+.meta div svg{color:#D4AF37}
+.meta code{background:rgb(212 175 55/.15);color:#D4AF37}
+main{padding:60px 72px 30px}
+h2{font-family:'Playfair Display',serif;font-weight:400;font-size:42px;color:#0D0D0D;display:flex;align-items:baseline;gap:16px}
+h2 small{font-family:'Inter';font-size:14px;letter-spacing:.35em;color:#D4AF37;text-transform:uppercase}
+.sec{margin-bottom:56px}
+.sec > p.sub{margin-top:8px;font-size:19px;color:rgb(34 34 34/.6)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:28px;border-top:1px solid rgb(34 34 34/.12);border-bottom:1px solid rgb(34 34 34/.12)}
+.step{padding:28px 24px 30px;position:relative}
+.step + .step{border-left:1px solid rgb(34 34 34/.12)}
+.step .num{font-family:'Playfair Display',serif;font-size:56px;line-height:1;color:rgb(212 175 55/.55)}
+.step .ic{position:absolute;top:30px;right:22px;color:#1A3C34}
+.step h3{margin-top:16px;font-size:21px;font-weight:600;color:#0D0D0D;line-height:1.25}
+.step p{margin-top:10px;font-size:16.5px;line-height:1.55;color:rgb(34 34 34/.7)}
+.code{margin-top:28px;background:#0F1F1B;color:#E8E4DA;position:relative}
+.code .bar{display:flex;align-items:center;justify-content:space-between;padding:16px 26px;border-bottom:1px solid rgb(255 255 255/.08);font-size:15px;color:rgb(232 228 218/.6)}
+.code .bar b{color:#D4AF37;font-weight:500;letter-spacing:.06em}
+pre{font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-size:17.5px;line-height:1.75;padding:24px 30px 28px;white-space:pre-wrap;word-break:break-word}
+pre .k{color:#E9C46A}pre .s{color:#9FD8B4}pre .n{color:#8EC5FF}pre .p{color:rgb(232 228 218/.55)}
+pre .dim{color:rgb(232 228 218/.32)}
+pre .new{display:block;margin:4px -30px;padding:6px 30px;background:rgb(212 175 55/.08);border-left:3px solid #D4AF37}
+pre .mk{display:inline-grid;place-items:center;width:24px;height:24px;margin-left:12px;border-radius:50%;background:#D4AF37;color:#0D0D0D;font:700 12px/1 'Inter';vertical-align:2px}
+pre .cm{color:#D4AF37;font-style:italic}
+table{width:100%;border-collapse:collapse;margin-top:28px;background:#fff}
+th{text-align:left;font-size:13px;letter-spacing:.25em;text-transform:uppercase;color:#D4AF37;font-weight:600;padding:16px 18px;background:#0D0D0D}
+td{padding:16px 18px;border-bottom:1px solid rgb(34 34 34/.08);font-size:17px;line-height:1.5;vertical-align:top;color:rgb(34 34 34/.78)}
+td:first-child{white-space:nowrap}
+td .mk{display:inline-grid;place-items:center;width:24px;height:24px;margin-right:10px;border-radius:50%;background:#D4AF37;color:#0D0D0D;font:700 12px/1 'Inter';vertical-align:1px}
+td code{font-weight:600}
+.req{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border:1px solid #1A3C34;color:#1A3C34;white-space:nowrap}
+.req.opt{border-color:rgb(34 34 34/.25);color:rgb(34 34 34/.5)}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.box{background:#fff;border:1px solid rgb(34 34 34/.1);padding:28px 30px}
+.box h4{display:flex;align-items:center;gap:12px;font-family:'Playfair Display',serif;font-weight:400;font-size:27px;color:#0D0D0D}
+.box h4 svg{color:#D4AF37}
+.box ul{list-style:none;margin-top:16px;display:grid;gap:12px}
+.box li{display:flex;gap:12px;font-size:17px;line-height:1.55;color:rgb(34 34 34/.75)}
+.box li:before{content:'';flex:none;width:7px;height:7px;margin-top:10px;background:#D4AF37;transform:rotate(45deg)}
+.box.green{background:#1A3C34;border-color:#1A3C34}
+.box.green h4{color:#FAF8F5}.box.green li{color:rgb(250 248 245/.8)}
+.box.green code{background:rgb(255 255 255/.1);color:#E9C46A}
+footer{display:flex;align-items:center;justify-content:space-between;background:#0D0D0D;color:rgb(250 248 245/.6);padding:30px 72px;font-size:16px;margin-top:20px}
+footer b{font-family:'Playfair Display',serif;font-weight:400;color:#FAF8F5;font-size:22px}
+footer span:last-child{color:#D4AF37;letter-spacing:.2em;text-transform:uppercase;font-size:13px}
+</style></head><body>
+<header class="hero"><span class="halo"></span><div class="top"><div class="brand"><span class="logo"><img src="agave.svg" alt=""></span><b>MontelarXI</b></div><span class="tag"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg> WhatsApp</span></div>
+<p class="eyebrow">Guía de contenido</p><h1>Cómo configurar el botón de WhatsApp</h1><p class="lead">El botón flotante está en todas las páginas. Al tocarlo muestra los <strong>mensajes predefinidos</strong> y abre WhatsApp con el texto ya escrito, listo para enviar.</p>
+<div class="meta"><div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1"/><path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1"/></svg> Archivo: <code>src/data/whatsapp.json</code></div><div><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg> Aparece en: Todas las páginas · esquina inferior derecha</div></div></header>
+<main>
+<section class="sec"><h2><small>Paso a paso</small></h2><div class="steps"><div class="step"><span class="ic"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></span><div class="num">01</div><h3>Pon tu número</h3><p>En <code>"phone"</code>: lada de país y número, <strong>solo dígitos</strong>: <code>523312345678</code>.</p></div><div class="step"><span class="ic"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg></span><div class="num">02</div><h3>Copia un mensaje</h3><p>En <code>"options"</code> copia un renglón completo y pégalo donde quieras que aparezca.</p></div><div class="step"><span class="ic"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 21h8"/><path d="m15 5 4 4"/><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg></span><div class="num">03</div><h3>Escribe los textos</h3><p><code>label</code> es el botón que se ve; <code>message</code> es lo que <strong>le llega a la empresa</strong>.</p></div><div class="step"><span class="ic"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 9-5.5 5.5L8 12"/></svg></span><div class="num">04</div><h3>Guarda y prueba</h3><p>Toca el botón verde, elige tu mensaje y revisa el texto en WhatsApp.</p></div></div></section>
+<section class="sec"><h2>Así se agrega <small>whatsapp.json</small></h2><p class="sub">Arriba va el número; los mensajes están en la lista <code>"options"</code>, <strong>en el orden en que se muestran</strong>. El resto de textos del panel (título, «Enviar»…) también se editan aquí.</p>
+<div class="code"><div class="bar"><b>src/data/whatsapp.json</b><span>Lo resaltado es lo nuevo</span></div><pre><span class="p"><span class="k">"phone"</span>: <span class="s">"523312345678"</span>,<span class="mk">1</span>
+<span class="k">"options"</span>: [</span>
+<span class="dim">  { "label": "Eventos y regalos", "message": "Hola, quiero información para eventos…" },</span>
+<span class="new"><span class="cm">// ← tu nuevo mensaje predefinido: copia este bloque completo</span>
+  {
+    <span class="k">"label"</span><span class="p">: </span><span class="s">"Quiero ser distribuidor"</span><span class="p">,</span><span class="mk">2</span>
+    <span class="k">"message"</span><span class="p">: </span><span class="s">"Hola, me interesa ser distribuidor de MontelarXI en mi ciudad."</span><span class="mk">3</span>
+  }</span>
+<span class="p">]</span></pre></div></section>
+<section class="sec"><h2>Qué va en cada campo</h2><table><thead><tr><th>Campo</th><th>Qué es</th><th>Ejemplo / regla</th><th></th></tr></thead><tbody><tr><td><span class="mk">1</span><code>phone</code></td><td>Número de WhatsApp de la empresa: <strong>52</strong> + 10 dígitos, sin espacios ni signos.</td><td><code>523312345678</code></td><td><span class="req ">Obligatorio</span></td></tr><tr><td><span class="mk">2</span><code>label</code></td><td>Texto del botón dentro del panel. Corto.</td><td><code>Quiero ser distribuidor</code></td><td><span class="req ">Obligatorio</span></td></tr><tr><td><span class="mk">3</span><code>message</code></td><td>Mensaje que se escribe solo en WhatsApp. Es lo que <strong>recibe la empresa</strong>.</td><td><code>Hola, me interesa ser distribuidor…</code></td><td><span class="req ">Obligatorio</span></td></tr></tbody></table></section>
+<section class="sec duo"><div class="box green"><h4><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg> Lo que pasa solo</h4><ul><li><span>El mensaje aparece como <strong>un botón más</strong> en el panel.</span></li><li><span>Al tocarlo se abre WhatsApp <strong>con el texto escrito</strong>: solo falta enviar.</span></li><li><span>También pueden <strong>escribir su propio mensaje</strong> en el campo de abajo.</span></li><li><span>Sin número, WhatsApp abre y pide <strong>elegir el contacto</strong>.</span></li></ul></div><div class="box "><h4><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Evita estos errores</h4><ul><li><span>Olvidar la <strong>coma</strong> entre el bloque anterior y el nuevo: <code>},</code> antes de tu <code>{</code>.</span></li><li><span>Dejar una coma <strong>después del último</strong> campo o del último bloque.</span></li><li><span>Usar comillas tipográficas (“ ”) en lugar de comillas rectas (" ").</span></li><li><span>Poner el número con espacios, guiones o <code>+</code>: solo dígitos.</span></li><li><span>Olvidar la lada <strong>52</strong> al inicio.</span></li></ul></div></section>
+</main>
+<footer><b>MontelarXI</b><span>Guarda el archivo · <code style="background:rgb(212 175 55/.15);color:#D4AF37">npm run build</code> te avisa si falta algo</span><span>Contenido en JSON</span></footer>
+<script>document.fonts.ready.then(()=>{document.title=String(document.documentElement.scrollHeight)})</script></body></html>

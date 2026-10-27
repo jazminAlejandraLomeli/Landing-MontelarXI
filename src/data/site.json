@@ -1,0 +1,81 @@
+{
+  "brandName": "MontelarXI",
+  "logo": "/agave.svg",
+  "colors": {
+    "primary": "#0D0D0D",
+    "secondary": "#D4AF37",
+    "background": "#FAF8F5",
+    "accent": "#1A3C34",
+    "text": "#222222",
+    "cardBg": "#FFFFFF"
+  },
+  "fonts": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+  },
+  "nav": {
+    "links": [
+      { "label": "Productos", "href": "/#productos" },
+      { "label": "Nuestra Historia", "href": "/nuestra-historia" },
+      { "label": "Recetas", "href": "/recetas" },
+      { "label": "Dónde encontrar", "href": "/donde-encontrar" }
+    ],
+    "searchPlaceholder": "Buscar productos, recetas…",
+    "countries": ["México", "Estados Unidos", "España"],
+    "ctaText": "Comprar",
+    "ctaHref": "/donde-encontrar"
+  },
+  "hero": {
+    "tagline": "EDICIÓN LIMITADA",
+    "title": "ESPÍRITU DEL AGAVE AZUL",
+    "subtitle": "Sabor ancestral con destilación maestra en el corazón de Jalisco.",
+    "ctaText": "DESCUBRIR COLECCIÓN",
+    "ctaHref": "#productos",
+    "mediaUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80",
+    "mediaAlt": "Tequila premium servido"
+  },
+  "catalog": {
+    "eyebrow": "NUESTRA COLECCIÓN",
+    "scrollHint": "Desliza para descubrir",
+    "title": "Tres expresiones, un mismo origen"
+  },
+  "ageGate": {
+    "title": "Bienvenido",
+    "question": "¿Eres mayor de edad?",
+    "note": "Debes tener la edad legal para consumir alcohol en tu país para ingresar a este sitio.",
+    "confirmText": "Sí, soy mayor de edad",
+    "denyText": "No",
+    "deniedMessage": "Lo sentimos, debes ser mayor de edad para visitar este sitio.",
+    "storageKey": "age-verified"
+  },
+  "notFound": {
+    "title": "No encontramos esta página",
+    "text": "Puede que el enlace haya cambiado. Vuelve al inicio para seguir explorando.",
+    "ctaText": "VOLVER AL INICIO"
+  },
+  "productPage": {
+    "backText": "Toda la colección",
+    "tastingTitle": "Notas de cata",
+    "storyTitle": "Sobre este tequila",
+    "specsTitle": "Ficha técnica",
+    "pairingTitle": "Marida con",
+    "serveTitle": "Cómo disfrutarlo",
+    "recipesTitle": "Cocteles con este tequila",
+    "othersTitle": "Descubre la colección",
+    "buyCta": "DÓNDE COMPRAR",
+    "buyHref": "/donde-encontrar",
+    "notFound": "No encontramos este tequila."
+  },
+  "labels": {
+    "search": "Buscar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "selectCountry": "Selecciona tu país",
+    "filterByCity": "Filtrar por ciudad",
+    "filterByTequila": "Filtrar por tequila",
+    "stages": "Etapas",
+    "zipPrefix": "CP",
+    "starsOf": "de 5 estrellas"
+  }
+}

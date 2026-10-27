@@ -1,0 +1,101 @@
+[
+  {
+    "id": "tequila-1",
+    "slug": "blanco",
+    "tint": "#EEF2EC",
+    "name": "TEQUILA BLANCO",
+    "category": "100% Agave Azul",
+    "description": "Notas frescas de cítricos, agave cocido y un suave toque de pimienta blanca.",
+    "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80",
+    "cta": "VER DETALLES",
+    "detail": {
+      "tagline": "La pureza del agave, sin filtros.",
+      "story": [
+        "Nuestro blanco se embotella recién destilado para conservar intacto el carácter del agave cocido: fresco, herbal y luminoso.",
+        "Es la expresión más honesta de la casa y la base de nuestras recetas favoritas, de la Paloma a la Margarita."
+      ],
+      "tasting": [
+        { "label": "Aroma", "text": "Agave cocido, lima y hierba fresca." },
+        { "label": "Sabor", "text": "Cítrico y ligeramente dulce, con pimienta blanca." },
+        { "label": "Final", "text": "Limpio, fresco y de duración media." }
+      ],
+      "specs": [
+        { "label": "Agave", "value": "100% Agave Azul Weber" },
+        { "label": "Región", "value": "Los Altos de Jalisco" },
+        { "label": "Cocción", "value": "Hornos de mampostería, 72 h" },
+        { "label": "Destilación", "value": "Doble, en alambique de cobre" },
+        { "label": "Reposo", "value": "Sin reposo" },
+        { "label": "Graduación", "value": "40% Alc. Vol." },
+        { "label": "Presentación", "value": "750 ml" }
+      ],
+      "pairing": ["Ceviche", "Tacos de pescado", "Guacamole", "Quesos frescos"],
+      "serve": "Solo, a temperatura ambiente en copa tequilera, o como base de cocteles cítricos."
+    }
+  },
+  {
+    "id": "tequila-2",
+    "slug": "reposado",
+    "tint": "#F5ECDD",
+    "name": "TEQUILA REPOSADO",
+    "category": "Madurado en Roble Americano",
+    "description": "Aromas de vainilla, caramelo y madera tostada con un final sedoso.",
+    "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=800&q=80",
+    "cta": "VER DETALLES",
+    "detail": {
+      "tagline": "El equilibrio entre el agave y la madera.",
+      "story": [
+        "Reposa seis meses en barricas de roble americano. El tiempo suaviza el destilado y le da un color dorado claro.",
+        "El agave sigue al frente, ahora acompañado de vainilla y caramelo: un tequila versátil, para disfrutar solo o en coctelería."
+      ],
+      "tasting": [
+        { "label": "Aroma", "text": "Vainilla, caramelo y agave cocido." },
+        { "label": "Sabor", "text": "Sedoso, con madera tostada y un toque de canela." },
+        { "label": "Final", "text": "Cálido y redondo, de duración media." }
+      ],
+      "specs": [
+        { "label": "Agave", "value": "100% Agave Azul Weber" },
+        { "label": "Región", "value": "Los Altos de Jalisco" },
+        { "label": "Cocción", "value": "Hornos de mampostería, 72 h" },
+        { "label": "Destilación", "value": "Doble, en alambique de cobre" },
+        { "label": "Reposo", "value": "6 meses en roble americano" },
+        { "label": "Graduación", "value": "40% Alc. Vol." },
+        { "label": "Presentación", "value": "750 ml" }
+      ],
+      "pairing": ["Carnes asadas", "Mole", "Quesos semimaduros", "Postres con caramelo"],
+      "serve": "Solo o con un hielo grande; también brilla en un Carajillo."
+    }
+  },
+  {
+    "id": "tequila-3",
+    "slug": "anejo",
+    "tint": "#EADFD2",
+    "name": "TEQUILA AÑEJO",
+    "category": "Reserva Especial",
+    "description": "Sabor profundo con matices de frutos secos, chocolate oscuro y roble ahumado.",
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "cta": "VER DETALLES",
+    "detail": {
+      "tagline": "Paciencia convertida en profundidad.",
+      "story": [
+        "Dieciocho meses en barricas de roble americano le dan un color ámbar profundo y una complejidad digna de los grandes destilados.",
+        "Es nuestra reserva especial: un tequila para beber despacio, en buena compañía y sin prisa."
+      ],
+      "tasting": [
+        { "label": "Aroma", "text": "Frutos secos, chocolate oscuro y roble." },
+        { "label": "Sabor", "text": "Denso y complejo, con cacao, café y especias." },
+        { "label": "Final", "text": "Largo, ahumado y elegante." }
+      ],
+      "specs": [
+        { "label": "Agave", "value": "100% Agave Azul Weber" },
+        { "label": "Región", "value": "Los Altos de Jalisco" },
+        { "label": "Cocción", "value": "Hornos de mampostería, 72 h" },
+        { "label": "Destilación", "value": "Doble, en alambique de cobre" },
+        { "label": "Reposo", "value": "18 meses en roble americano" },
+        { "label": "Graduación", "value": "40% Alc. Vol." },
+        { "label": "Presentación", "value": "750 ml" }
+      ],
+      "pairing": ["Chocolate amargo", "Cortes de res", "Puros", "Postres de nuez"],
+      "serve": "Solo, en copa de cata, para apreciar cada nota. Ideal como digestivo."
+    }
+  }
+]

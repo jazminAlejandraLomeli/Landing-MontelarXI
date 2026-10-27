@@ -1,0 +1,25 @@
+{
+  "id": "donde-encontrar",
+  "eyebrow": "DÓNDE ENCONTRAR",
+  "title": "Encuéntranos cerca de ti",
+  "searchPlaceholder": "Busca por ciudad, código postal o tienda",
+  "ctaText": "VER TODOS LOS PUNTOS DE VENTA",
+  "ctaHref": "/donde-encontrar",
+  "countLabel": "puntos de venta en",
+  "citiesLabel": "ciudades",
+  "page": {
+    "metaTitle": "Dónde encontrar",
+    "eyebrow": "DÓNDE ENCONTRAR",
+    "title": "Puntos de venta",
+    "intro": "Encuentra MontelarXI en tiendas y vinaterías seleccionadas.",
+    "allLabel": "Todas",
+    "emptyMessage": "Aún no tenemos distribuidores en esa zona.",
+    "mapText": "Ver en el mapa"
+  },
+  "items": [
+    { "name": "La Vinatería Gourmet", "city": "Guadalajara", "zip": "44100", "address": "Av. Chapultepec 120, Americana", "hours": "Lun a Sáb · 10:00–21:00" },
+    { "name": "Casa del Agave", "city": "Tequila", "zip": "46400", "address": "Calle Hidalgo 15, Centro", "hours": "Todos los días · 9:00–20:00" },
+    { "name": "Licores Selectos Polanco", "city": "Ciudad de México", "zip": "11560", "address": "Av. Presidente Masaryk 330", "hours": "Lun a Dom · 11:00–22:00" },
+    { "name": "Cava Regia", "city": "Monterrey", "zip": "66220", "address": "Calz. del Valle 400, San Pedro", "hours": "Lun a Sáb · 10:00–20:00" }
+  ]
+}
